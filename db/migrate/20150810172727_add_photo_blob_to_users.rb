@@ -4,6 +4,6 @@ class AddPhotoBlobToUsers < ActiveRecord::Migration
   end
 
   def down
-    remove_column :users, :profile_photo
+    remove_column :users, :profile_photo, :binary
   end
 end
