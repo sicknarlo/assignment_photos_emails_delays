@@ -16,5 +16,10 @@
 !/log/.keep
 /tmp
 
+<<<<<<< HEAD
+=======
+/public/system/users/*
+
+>>>>>>> f366283c62f1dae475238faf20d57e7447c74a7a
 # Ignore application configuration
 /config/application.yml
